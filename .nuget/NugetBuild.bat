@@ -1,0 +1,1 @@
+nuget pack ..\src\OneMoreThing.Middleware\package.nuspec

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMoreThing.Middleware", "src\OneMoreThing.Middleware\OneMoreThing.Middleware.csproj", "{8982CE70-3C5E-4DAE-B9EF-6732AC331E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMoreThing.Console", "src\OneMoreThing.Console\OneMoreThing.Console.csproj", "{E0A4F3C8-AB60-42D2-868F-8AC32D076D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMoreThing.Test", "src\OneMoreThing.Test\OneMoreThing.Test.csproj", "{41A286B2-7A33-45FC-AB0A-D0759A860390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMoreThing", "src\OneMoreThing\OneMoreThing.csproj", "{6D5C62D2-F6A0-4532-B3E8-8E6515208D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMoreThing.Loader", "src\OneMoreThing.Loader\OneMoreThing.Loader.csproj", "{8D7584E4-83D3-45FD-A2B5-17692CB4C62A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{64E2B179-108C-4098-AFF9-132B31A29215}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMoreThing.ApiExample", "src\OneMoreThing.ApiExample\OneMoreThing.ApiExample.csproj", "{20036C96-19F8-43B5-ADEC-A2E1CA99530E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{4243E463-C75C-4BB7-B325-D940FD148CD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8982CE70-3C5E-4DAE-B9EF-6732AC331E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8982CE70-3C5E-4DAE-B9EF-6732AC331E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8982CE70-3C5E-4DAE-B9EF-6732AC331E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8982CE70-3C5E-4DAE-B9EF-6732AC331E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A4F3C8-AB60-42D2-868F-8AC32D076D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A4F3C8-AB60-42D2-868F-8AC32D076D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A4F3C8-AB60-42D2-868F-8AC32D076D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A4F3C8-AB60-42D2-868F-8AC32D076D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A286B2-7A33-45FC-AB0A-D0759A860390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A286B2-7A33-45FC-AB0A-D0759A860390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A286B2-7A33-45FC-AB0A-D0759A860390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A286B2-7A33-45FC-AB0A-D0759A860390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5C62D2-F6A0-4532-B3E8-8E6515208D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5C62D2-F6A0-4532-B3E8-8E6515208D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5C62D2-F6A0-4532-B3E8-8E6515208D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5C62D2-F6A0-4532-B3E8-8E6515208D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7584E4-83D3-45FD-A2B5-17692CB4C62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7584E4-83D3-45FD-A2B5-17692CB4C62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7584E4-83D3-45FD-A2B5-17692CB4C62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7584E4-83D3-45FD-A2B5-17692CB4C62A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20036C96-19F8-43B5-ADEC-A2E1CA99530E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20036C96-19F8-43B5-ADEC-A2E1CA99530E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20036C96-19F8-43B5-ADEC-A2E1CA99530E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20036C96-19F8-43B5-ADEC-A2E1CA99530E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0A4F3C8-AB60-42D2-868F-8AC32D076D9E} = {4243E463-C75C-4BB7-B325-D940FD148CD2}
+		{41A286B2-7A33-45FC-AB0A-D0759A860390} = {4243E463-C75C-4BB7-B325-D940FD148CD2}
+		{20036C96-19F8-43B5-ADEC-A2E1CA99530E} = {4243E463-C75C-4BB7-B325-D940FD148CD2}
+	EndGlobalSection
+EndGlobal
