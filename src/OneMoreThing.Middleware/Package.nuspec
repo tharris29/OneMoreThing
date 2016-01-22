@@ -5,13 +5,14 @@
     <version>0.0.0.0</version>
     <authors>Tom Harris</authors>
     <owners>TomHarris.co.uk</owners>
-    <projectUrl>http:\\www.TomHarris.co.uk</projectUrl>
+    <projectUrl>https://github.com/tharris29/OneMoreThing</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>pipeline contributor for piloting ideas and experiments</description>
     <summary>asp.net owin api experiments</summary>
     <releaseNotes></releaseNotes>
     <copyright>TomHarris.co.uk 2015</copyright>
     <tags>api experiments</tags>
+    <iconUrl>http://i.imgur.com/EI88SQf.png?1</iconUrl>
     <dependencies>
       <group targetFramework="net452">
         <dependency  id="Microsoft.Owin" version="3.0.1" />
