@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Owin;
 using Newtonsoft.Json;
-using OneMoreThing;
 
-namespace Just.OneMoreThing.Console
+namespace OneMoreThing.Console
 {
     internal class Program
     {

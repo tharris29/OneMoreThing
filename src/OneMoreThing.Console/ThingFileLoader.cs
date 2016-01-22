@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace OneMoreThing.Loader
+namespace OneMoreThing.Console
 {
     public class ThingFileLoader : IThingLoader
     {
