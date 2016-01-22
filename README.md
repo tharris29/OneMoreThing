@@ -1,4 +1,4 @@
-# Just.OneMoreThing
+# OneMoreThing
 API Response Experiments. Allows experiments to change the inbound and outbound body.
 
 Load a test object using the file a store loader like https://github.je-labs.com/tom-harris/Just.OneMoreThing/blob/master/src/Just.OneMoreThing.Loader/ThingFileLoader.cs
